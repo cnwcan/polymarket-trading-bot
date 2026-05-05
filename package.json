@@ -1,0 +1,33 @@
+{
+  "name": "polymarket-arbitrage-bot",
+  "version": "1.0.0",
+  "description": "Polymarket 5m crypto up/down momentum scalper bot (TypeScript)",
+  "main": "dist/main.js",
+  "scripts": {
+    "build:dashboard": "npm run build --prefix dashboard",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "sim": "node dist/main.js --simulation",
+    "prod": "node dist/main.js --production",
+    "dev": "ts-node src/main.ts"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "^3.0.0",
+    "@types/ws": "^8.18.1",
+    "better-sqlite3": "^12.8.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "https-proxy-agent": "^5.0.1",
+    "tslib": "^2.6.2",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
