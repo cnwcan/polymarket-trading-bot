@@ -13,6 +13,14 @@
 </p>
 
 <p align="center">
+  <img src="image/paneldark.png" alt="Poly Scalper" width="100%" />
+</p>
+
+<p align="center">
+  <img src="image/panellight.png" alt="Poly Scalper" width="100%" />
+</p>
+
+<p align="center">
   <a href="#get-started-in-2-minutes">Get started</a> ·
   <a href="#what-you-get">What you get</a> ·
   <a href="#stack--algorithms">Stack & algorithms</a> ·
