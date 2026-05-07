@@ -9,10 +9,6 @@
 </p>
 
 <p align="center">
-  <img src="image/banner.png" alt="Poly Scalper" width="100%" />
-</p>
-
-<p align="center">
   <img src="image/paneldark.png" alt="Poly Scalper" width="100%" />
 </p>
 
